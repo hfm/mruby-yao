@@ -58,7 +58,7 @@ static mrb_value mrb_yao_hi(mrb_state *mrb, mrb_value self)
 void mrb_mruby_yao_gem_init(mrb_state *mrb)
 {
   struct RClass *yao;
-  yao = mrb_define_class(mrb, "Yao", mrb->object_class);
+  yao = mrb_define_module(mrb, "Yao", mrb->object_class);
   mrb_define_method(mrb, yao, "initialize", mrb_yao_init, MRB_ARGS_REQ(1));
   mrb_define_method(mrb, yao, "hello", mrb_yao_hello, MRB_ARGS_NONE());
   mrb_define_class_method(mrb, yao, "hi", mrb_yao_hi, MRB_ARGS_NONE());

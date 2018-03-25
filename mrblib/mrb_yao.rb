@@ -1,5 +1,2 @@
-class Yao
-  def bye
-    self.hello + " bye"
-  end
+module Yao
 end
