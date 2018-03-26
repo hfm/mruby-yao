@@ -15,7 +15,7 @@
 void mrb_mruby_yao_gem_init(mrb_state *mrb)
 {
   struct RClass *yao;
-  yao = mrb_define_module(mrb, "Yao", mrb->object_class);
+  yao = mrb_define_module(mrb, "Yao");
   DONE;
 }
 
