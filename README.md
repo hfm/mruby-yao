@@ -1,5 +1,7 @@
 # mruby-yao   [![Build Status](https://travis-ci.org/hfm/mruby-yao.svg?branch=master)](https://travis-ci.org/hfm/mruby-yao)
-Yao class
+
+[Yao](https://github.com/yaocloud) class
+
 ## install by mrbgems
 - add conf.gem line to `build_config.rb`
 
